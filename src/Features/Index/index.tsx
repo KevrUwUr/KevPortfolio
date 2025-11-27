@@ -1,3 +1,4 @@
 export const Index = () => {
-    return <div>Index Works!</div>
+    throw new Error("Error de prueba para el ErrorBoundary");
+    return <div>Index Works!</div>;
 }
